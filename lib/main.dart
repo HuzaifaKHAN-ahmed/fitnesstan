@@ -5,11 +5,11 @@ import 'login.dart';
 import 'verification.dart';
 import 'dashboard.dart';
 import 'diet_dashboard.dart';
-import 'meal_section_screen.dart'; // Import the meal section screen
+import 'meal_section_screen.dart';
 
 void main() {
   runApp(const FitnesstanApp());
-} 
+}
 
 class FitnesstanApp extends StatelessWidget {
   const FitnesstanApp({super.key});
@@ -21,7 +21,7 @@ class FitnesstanApp extends StatelessWidget {
       title: 'Fitnesstan',
       theme: ThemeData(primarySwatch: Colors.red),
       initialRoute: '/',
-      routes: { 
+      routes: {
         '/': (context) => const WelcomeScreen(),
         '/signup': (context) => const SignUpScreen(),
         '/login': (context) => const LoginScreen(),

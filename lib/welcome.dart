@@ -20,7 +20,7 @@ class WelcomeScreen extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 30),
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.5),
+                color: Colors.white.withOpacity(0.8),
                 borderRadius: const BorderRadius.only(
                   topLeft: Radius.circular(40),
                   topRight: Radius.circular(40),
